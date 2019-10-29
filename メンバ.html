@@ -1,0 +1,81 @@
+<!doctpe html>
+<html>
+<head>
+    <title>KYOTO&SDGs</title>
+    <meta charset="utf-8">
+</head>
+<link rel="stylesheet" href="cdg.css">
+<body>
+<style>
+
+
+</style>
+
+
+
+<h1 style="text-align: center"><a href="SDGs.html">立命館大学金澤ゼミ</a></h1>
+       <table>
+           <thead>
+              <tr>
+              <td><a href="メンバ.html" class="set" id="active"><strong>メンバー紹介</strong></a></td>
+              <td><a href="sdgcsr.html"class="set"><strong>SDGs,CSRは何か</strong></a></td>
+              <td><a href="取り組み.html"class="set"><strong>取り組み</strong></a></td>
+              <td><a href="QandA.html"class="set"><strong>お問い合わせ</strong></a></td>
+            </tr>
+          </thead>
+      </table>
+
+
+<script>
+var namee = ['S.H KIM','KO BAYASI']
+var jobb = ['university student','university student']
+var from = ['korea','japan']
+var career =['https://kimseunghwa102.github.io/kimseunghwa/活動.html','SDGs.html']
+var personall =['Personal site','preparing']
+
+var nameea = ['KAWAMI','HUTAHASI']
+var jobba = ['university student','university student']
+var froma = ['japan','japan']
+var careera =['SDGs.html','SDGs.html']
+var personalla =['preparing','preparing']
+var i = 0
+while(i < namee.length){
+  weare();
+
+i = i + 1
+
+function weare(self){
+document.write('<div id="grid">')
+document.write('<table>')
+document.write('<thead>')
+document.write('<tr>')
+
+
+document.write('<div  class="seee">name : '+namee[i]+' <br>job :  '+jobb[i]+'<br>nationality : '+from[i]+'');
+document.write('<form action="'+career[i]+'">')
+document.write('<input type="submit" value="GO to carrer"  title="'+personall[i]+'"/></form></div>')
+
+document.write('<div  class="seee">name : '+nameea[i]+' <br>job :  '+jobba[i]+'<br>nationality : '+froma[i]+'');
+document.write('<form action="'+careera[i]+'">')
+document.write('<input type="submit" value="GO to carrer"  title="'+personalla[i]+'"/></form></div>')
+
+
+document.write('</tr>')
+document.write('</thead>')
+document.write('</table>')
+document.write('</div>')
+}
+}
+</script>
+
+
+
+<script>
+
+</script>
+
+
+
+
+</body>
+</html>
