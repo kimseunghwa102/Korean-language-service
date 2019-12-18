@@ -1,0 +1,23 @@
+var numbera = ['日本語表現','一 二 三 四 五 六 七 八 九 十','韓国表現','일 이 삼 사 오 육 칠 팔 구 십','発音','cheoe um boeb ges sseub ni da. je oui ileumeun danaka ibnida.','録音']
+function immigrationControlA(self){
+document.write( '  <table>')
+document.write( '    <tr>')
+document.write( '      <th>'+numbera[0]+'</th>')
+document.write( '      <td>'+numbera[1]+'</td>')
+document.write( '    </tr>')
+document.write( '    <tr>')
+document.write( '    <th>'+numbera[2]+'</th>')
+document.write( '      <td>'+numbera[3]+'</td>')
+document.write( '    </tr>')
+document.write( '    <tr>')
+document.write( '      <th>'+numbera[4]+'</th>')
+document.write( '      <td>'+numbera[5]+'</td>')
+document.write( '    </tr>')
+document.write( '    <tr>')
+document.write( '      <th>'+numbera[6]+'</th>')
+document.write( '      <td>  <audio controls>')
+document.write( '          <source src=".mp3" type="audio/mp3">')
+document.write( '          </audio></td>')
+document.write( '    </tr>')
+document.write( '  </table>')
+};
