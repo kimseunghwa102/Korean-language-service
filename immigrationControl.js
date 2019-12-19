@@ -1,4 +1,4 @@
-var numbera = ['日本語表現','一 二 三 四 五 六 七 八 九 十','韓国表現','일 이 삼 사 오 육 칠 팔 구 십','発音','cheoe um boeb ges sseub ni da. je oui ileumeun danaka ibnida.','録音']
+var numbera = []
 function immigrationControlA(self){
 document.write( '  <table>')
 document.write( '    <tr>')
