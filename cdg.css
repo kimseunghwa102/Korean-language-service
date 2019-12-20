@@ -29,7 +29,7 @@ div{
   display: none;
 } */
 
-@media(min-width: 800px) {
+@media(min-width: 600px) {
 li a{
   display: none;
 }
