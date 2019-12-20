@@ -24,14 +24,15 @@ table, td {
     height: 1fr;
     margin-left: auto;o;
   }
-/* @media(min-width:800px) {
+/* @media(max-width:800px) {
 div{
   display: none;
 } */
-/* @media(max-width:600px) {
-table, td{
+
+@media(min-width: 800px) {
+li a{
   display: none;
-} */
+}
 }
 
 
