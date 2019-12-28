@@ -17,7 +17,7 @@
 document.write( '<table id="tablealine">')
 document.write( '  <thead style="display: block;">')
 document.write( '    <tr id="textbasyo">')
-document.write( '    <th>一日韓国語表現<br>(準備中)</th>')
+document.write( '    <th>一日韓国語表現</th>')
 document.write( '    </tr>')
 document.write( '    <tr>')
 document.write( '      <td class="leversize">Level.1</tb>')
