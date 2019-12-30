@@ -1,0 +1,20 @@
+.leversize{
+  width: 50px;
+  font-size: 30px; 
+
+}
+.contnetsize{
+  width:250px;
+  font-size: 30px;
+
+}
+#textbasyo{
+display: inline;
+  text-align: center;
+
+}
+#tablealine{
+margin-left: 33%;
+  margin-top: 10%;
+  border-radius: 10px ;
+}
