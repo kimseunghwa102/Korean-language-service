@@ -4,6 +4,11 @@
   <meta charset = "utf-8">
 <title>ハングル教室</title>
 	<script src="jquery-3.4.1.min.js"></script>
+  <style>
+  body {
+-ms-touch-action: manipulation;
+touch-action: manipulation;}
+  </style>
 </head>
 <link rel="stylesheet" href="cdg.css">
 <link rel="stylesheet" href="ハングル.css">
@@ -65,15 +70,18 @@
   function dropImage5(){
    image5.height="150"
   }
-  if(ondblclick.enlargeImage1.image1){
-    onclick.dropImage3.image3
-    onclick.dropImage4.image4
-    onclick.dropImage5.image5
-    onclick.dropImage2.image2
-  }
+  // if(ondblclick.enlargeImage1.image1){
+  //   onclick.dropImage3.image3
+  //   onclick.dropImage4.image4
+  //   onclick.dropImage5.image5
+  //   onclick.dropImage2.image2
+  // }
+
 </script>
 <img src="korean1.JPG"
 height="150"name="image1" ondblclick="enlargeImage1()" onclick="dropImage1()">
+
+<meta name="viewport" content="width=device-width, initial scale=1,user-scalable=no">
 
 <img src="korean2.JPG"
 height="150"name="image2" ondblclick="enlargeImage2()" onclick="dropImage2()">
