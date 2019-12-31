@@ -38,7 +38,9 @@ touch-action: manipulation;}
 
   function enlargeImage1(){
    image1.height="600"
-  }
+   }
+
+
   function dropImage1(){
    image1.height="150"
   }
@@ -97,20 +99,23 @@ touch-action: manipulation;}
             $('#customer_email_modal').html('Email: ' + email);
       });
   })
+
+
 </script>
 
-<img src="korean1.JPG"
-  height="150"name="image1" onclick="enlargeImage1()"  ondblclick="dropImage1()">
 
+
+<img src="korean1.JPG"
+height="150"name="image1" onclick="enlargeImage1()" onclick="dropImage1()">
 
 <img src="korean2.JPG"
 height="150"name="image2" onclick="enlargeImage2()" onclick="dropImage2()">
 
 <img src="korean3.JPG"
-height="150"name="image3" ondblclick="enlargeImage3()" onclick="dropImage3()">
+height="150"name="image3" onclick="enlargeImage3()" onclick="dropImage3()">
 
 <img src="korean4.JPG"
-height="150"name="image4" ondblclick="enlargeImage4()" onclick="dropImage4()">
+height="150"name="image4" onclick="enlargeImage4()" onclick="dropImage4()">
 
 <img src="korean5.JPG"
 height="150"name="image5" ondblclick="enlargeImage5()" onclick="dropImage5()">
