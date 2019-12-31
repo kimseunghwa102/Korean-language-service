@@ -76,10 +76,31 @@ touch-action: manipulation;}
   //   onclick.dropImage5.image5
   //   onclick.dropImage2.image2
   // }
+  $(document).on("dblclick","#table_discrepancy tr", function() {
 
+   var orderno = $(this).find("td:eq(0)").text();
+   var workorderno = $(this).find("td:eq(1)").text();
+
+      server('/get_customer_info/' + orderno, function(result){
+
+       var cus_name = result.name.replace(/^[\s]+/, '');
+       cus_name = cus_name.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+       var phone_no = result.phoneno.replace(/^[\s]+/, '');
+       var email = result.email.replace(/^[\s]+/, '');
+
+            $('#customer_info_modal').modal('show');
+
+            $('#orderno_modal').html('Order# : ' + orderno);
+            $('#workorderno_modal').html('Work Order# : ' + workorderno);
+            $('#customer_name_modal').html('Name : ' + cus_name);
+            $('#customer_phoneno_modal').html('Phone#: ' + phone_no);
+            $('#customer_email_modal').html('Email: ' + email);
+      });
+  })
 </script>
+
 <img src="korean1.JPG"
-height="150"name="image1" ondblclick="enlargeImage1()" onclick="dropImage1()" meta name="viewport" content="width=device-width, initial scale=1,user-scalable=no">
+  height="150"name="image1" ondblclick="enlargeImage1()" onclick="dropImage1()">
 
 
 <img src="korean2.JPG"
