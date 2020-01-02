@@ -6,7 +6,7 @@
 https://kimseunghwa102.github.io/Korean-language-service/
 
 
-## 기능
+## サービス
 * 一日一つの言葉暗記貯
 * 場所によって使える表現
 * 音声サービス
