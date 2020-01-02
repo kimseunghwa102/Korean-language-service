@@ -1,13 +1,10 @@
-# 日本人のための韓国語教室
-韓国へ旅行に行ったとき場所による適切な言葉使いを
+# Japanese translation service
+Translation service is provided.
 
-## サイト
+## Site address
 
-https://kimseunghwa102.github.io/web1/
+https://kimseunghwa102.github.io/Translation-Service/
 
-
-## 기능
-* 一日一つの言葉暗記貯
-* 場所によって使える表現
-* 音声サービス
-* ハングルの読み方
+## service
+* Interpreter Introduction
+* Korean and Japanese.
